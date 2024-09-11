@@ -1,0 +1,13 @@
+name: asciicast
+actions:
+- name: test/asciicast
+  path: actions/test/asciicast.luau
+scrolls:
+- name: asciicast
+  path: scrolls/asciicast
+repositories:
+- name: core
+  uri: git@github.com:ntr1x/ggcode-repo-core.git
+targets:
+- name: '@examples'
+  path: examples
